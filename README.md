@@ -1,2 +1,2 @@
 # less-setup
-light node.js framework to just go on coding
+light node.js framework to just start coding
