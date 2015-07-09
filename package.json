@@ -1,0 +1,11 @@
+{
+  "name": "less-setup",
+  "description": "just start coding",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.4.5"
+  }
+}
