@@ -1,2 +1,2 @@
 # less-setup
-light node.js framework to just start coding
+light node.js template to just start coding
