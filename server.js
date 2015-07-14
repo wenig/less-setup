@@ -18,6 +18,6 @@ var app = express();
 
 //*******************end
 app.get('/hello_world', function(req, res){
-  res.send('hello world');
+  res.send(require('./endpoints/hello_world'));
 })
 app.listen(3000);
