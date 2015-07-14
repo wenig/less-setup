@@ -6,6 +6,7 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "dot": "^1.0.3",
     "express": "^4.4.5",
     "knex": "^0.8.6",
     "moron": "^0.1.5",

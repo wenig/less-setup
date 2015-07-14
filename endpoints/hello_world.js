@@ -1,1 +1,1 @@
-module.exports = 'hello world, js developer';
+module.exports = {foo:'hello world, js developer'};

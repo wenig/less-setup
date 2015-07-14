@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var ve = require('./ve_mapper');
 
 //*****************database
 // var Knex = require('knex');
@@ -18,6 +19,6 @@ var app = express();
 
 //*******************end
 app.get('/hello_world', function(req, res){
-  res.send(require('./endpoints/hello_world'));
+  res.send(ve.render('hello_world'));
 })
 app.listen(3000);
