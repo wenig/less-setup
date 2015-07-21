@@ -2,7 +2,7 @@ var dots = require("dot").process({path: "./views"});
 
 VeMapper = function () {
   this.render = function (endpointName) {
-    return dots.mytemplate(require('./endpoints/' + endpointName));
+    return eval("dots." + endpointName + "(require('./endpoints/" + endpointName + "'))");
   }
 }
 
